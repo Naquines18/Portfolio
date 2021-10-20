@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) {
+    .showcase-title h1{
+        font-size: 2rem;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .showcase-title p{
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+
+    .learn-button{
+        padding: 10px 23px;
+    }
+
+
+    .content-wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .skill-wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .portfolio-wrapper{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+
+    .header-wrapper{
+        display: inline;
+        text-align: center;        
+    }
+
+    .header-name a{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    ul {
+        padding: 0px 10px;
+    }
+    
+    .nav-link{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .showcase-title h1{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    
+    .showcase-title p{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .about-desc h1{
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgb(155, 153, 153);
+    }
+    
+    .about-desc p{
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+
+    .skill-desc h2{
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgb(155, 153, 153);
+    }
+    
+    .skill-desc p{
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+
+    .portfolio-section h4{
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgb(155, 153, 153);
+    }
+
+    .middle-name{
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1200px){
+    .showcase-title h1{
+        font-size: 3rem;
+        margin-bottom: 30px;
+        font-weight: 800;
+    }
+}
+
+
+
+
+
+
